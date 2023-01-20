@@ -1,7 +1,6 @@
 # carolineholzapfel.github.io
 
 ## **Projects** 
-<hr>
 
 - HTML
 - CSS
@@ -26,7 +25,6 @@
 - ICA15
 
 ## **Weekly Assignments**
-<hr>
 
 - WA1
 - WA2
