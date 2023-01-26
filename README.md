@@ -27,7 +27,7 @@
 ## **Weekly Assignments**
 
 - [WA1](https://carolineholzapfel.github.io/wa/wa1.html)
-- WA2
+- [WA2](http://carolineholzapfel.github.io/wa/wa2.html)
 - WA3
 - WA4
 - WA5
