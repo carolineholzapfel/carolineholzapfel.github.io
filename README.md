@@ -11,6 +11,7 @@
 - ICA1
 - ICA2
 - [ICA3](https://carolineholzapfel.github.io/ica/ica3a.html)
+- [ICA3.2]()
 - ICA4
 - ICA5
 - ICA6
