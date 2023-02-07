@@ -12,7 +12,7 @@
 - ICA2
 - [ICA3a](https://carolineholzapfel.github.io/ica/ica3a.html)
 - [ICA3b](https://carolineholzapfel.github.io/ica/ica3b.html)
-- ICA4
+- [ICA4](https://carolineholzapfel.github.io/ica/ica4.html)
 - ICA5
 - ICA6
 - ICA7
