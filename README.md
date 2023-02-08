@@ -2,7 +2,7 @@
 
 ## **Projects** 
 
-- HTML
+- [HTML](https://carolineholzapfel.github.io/html-midterm/page5.html)
 - CSS
 - JS
 
