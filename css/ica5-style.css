@@ -43,6 +43,9 @@
     padding: 44px 0;
     color: white;
     text-shadow: 1px 1px 1px black;
+    background:url("/img/ica5/logo.png");
+    filter: drop-shadow(5px 5px 5px black);
+
   }
   
   /* Your CSS below here */
@@ -62,9 +65,4 @@ header img {
 footer img {
     height:100%;
     width:100%;
-}
-
-h1 img{
-    filter: drop-shadow(5px 5px 5px black);
-    position:absolute;
 }
