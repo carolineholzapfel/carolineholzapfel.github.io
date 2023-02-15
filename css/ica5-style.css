@@ -49,7 +49,7 @@
   }
   
   /* Your CSS below here */
-header{
+  header{
     background-image: linear-gradient(to bottom,rgba(0,0,0,.25), rgba(0,0,0,0));
 }
 
