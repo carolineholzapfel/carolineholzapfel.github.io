@@ -1,0 +1,20 @@
+
+body{
+background-image: url(/img/wa5/field.png); background-repeat: no-repeat;
+
+}
+
+overlay1 {
+    background-image: url(/img/wa5/overlay1.png);
+    position:absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+}
+
+overlay2 {
+    background-image: url(/img/wa5/overlay2.png);
+    position:absolute;
+    bottom: 0;
+    padding: 1rem;
+}
