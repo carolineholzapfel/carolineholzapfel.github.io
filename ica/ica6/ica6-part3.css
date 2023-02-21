@@ -1,1 +1,13 @@
-Unauthorized
+#narrowScreen{
+    background-color: green;
+}
+@media screen and (min-width:600px) ;{background-color: purple;}
+#wideScreen{
+    background-color: red;
+}
+#shortScreen{
+    background-color: turquoise;
+}
+#tallScreen{
+    background-color: lavender;
+}
