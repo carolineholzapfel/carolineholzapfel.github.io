@@ -4,12 +4,12 @@ body {
     color: #333;
     margin: 0;
     font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
+    height:auto;
   }
 
   img {
       max-width: 100%;
       display: block;
-      float: left;
   }
 
 
@@ -64,7 +64,9 @@ body {
 
   .feature {
       width: 200px;
-      padding: 10px;
+      margin-right: 20px;
+      margin-left: 20px;
+      float:left;
   }
 
 
@@ -76,9 +78,6 @@ body {
         flex-direction: column;
     }
     .photos {
-        flex-direction: column;
-    }
-    body {
-        flex-direction: column;
+        grid-template-columns: 350px;
     }
 }
