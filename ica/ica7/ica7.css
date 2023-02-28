@@ -17,14 +17,14 @@ body{
     position: relative;
     background-color: orangered;
     animation-name: box2move;
-    animation-duration: 5s;
+    animation-duration: 7s;
     animation-timing-function: linear;
-    animation-delay: 2s;
+    animation-delay: 1s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
 
 @keyframes box2move{
     from {top:0px;}
-    to {top:100px;}
+    to {top: 150px;}
 }
