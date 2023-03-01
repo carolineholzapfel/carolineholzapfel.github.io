@@ -9,25 +9,49 @@
 </head>
 <body>
     <div class="header">
-        <h1>Caroline Holzapfel</h1>
-        <h2>A website created by me about me.</h2>
+        <div id="slidelink" onclick="slide('home')">
+        <h1>Caroline</h1>
+        <h1>Holzapfel</h1>
+        </div>
     </div>
 
+    <div class="nav">
+        <p class="nav" onclick="slide('about')">ABOUT ME</p>
+        <p class="nav" onclick="slide('social')">SOCIALS</p>
+        <p class="nav" onclick="slide('exp')">EXPERIENCE</p>
+        <p class="nav" onclick="slide('projects')">PROJECTS</p>
+        <p class="nav" onclick="slide('photos')">PHOTOS</p>
+    </div>
     <nav>
         <ul>
           <li>
-            <a href="#AboutMe">About Me</a>
+            <a href="#Home">Home</a>
           </li>
           <li>
             <a href="#Experience">Experience</a>
           </li>
           <li>
+            <a href="#Projects">Projects</a>
+          </li>
+          <li>
             <a href="#Contact">Contact</a>
+          </li>
+          <li>
+            <a href="#Photos">Photos</a>
           </li>
         </ul>
       </nav>
 
-    <div class="main">
+    
+    <div id="headshot">
+        <img src="/css-midterm/headshot.png" id="headshot photo">
+    </div>
+
+    <div id="home" class="card">
+        <h2>hey</h2>
+        <div id="bio">
+            <p></p>
+        </div>
 
     </div>
 

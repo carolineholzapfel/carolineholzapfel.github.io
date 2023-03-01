@@ -1,3 +1,6 @@
+body{
+    background-color: #fff;
+}
 
 nav {
     background-color: #000;
@@ -21,4 +24,9 @@ nav a {
     color: #fff;
     text-decoration: none;
     padding: .5em 1em;
+}
+
+headshot {
+    max-height: 25%;
+    float: left;
 }
