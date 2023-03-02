@@ -1,12 +1,11 @@
 body{
-    background-color: #fff;
+    background-color: #DAF3E0;
     font-family: Didot;
 }
 
 p {
     font-size: large;
     text-align: center;
-    
 }
 nav {
     background-color: white;
@@ -27,7 +26,7 @@ nav ul {
 }
 
 nav a {
-    color: navy;
+    color: black;
     text-decoration: none;
     padding: .5em 1em;
 }
@@ -38,21 +37,21 @@ nav li :hover{
 }
 
 .headshot {
-    float: center;
+    display:flex;
     width:400px;
     height:auto;
     padding: 2em;
 }
 
 .footer{
-    background-color: navy;
+    background-color: #CBD3CE;
     color: white;
     position: absolute;
     bottom:0;
 }
 
 .header{
-    background-color: navy;
+    background-color: #CBD3CE;
     color: #fff;
     text-align: center;
     padding:1em;
@@ -64,6 +63,17 @@ nav li :hover{
     width: auto;
 }
 
-.bio {
-    border: 1 px solid black;
+.card {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 980px;
+    display:flex;
+  }
+
+p2 {
+    box-sizing: content-box;
+    width:100%;
+    padding:12px 20px;
+    margin: 8px 0;
+
 }
