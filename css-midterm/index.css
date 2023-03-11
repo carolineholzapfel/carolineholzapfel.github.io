@@ -38,10 +38,13 @@ nav li :hover{
 
 .headshot {
     display:flex;
+    justify-content: left;
     width:400px;
     height:auto;
     padding: 2em;
 }
+
+
 
 .footer{
     background-color: #CBD3CE;
@@ -69,6 +72,8 @@ nav li :hover{
     padding: 20px;
     max-width: 980px;
     display:flex;
+    justify-content: right;
+    font-size: large;
   }
 
 p2 {
@@ -117,6 +122,18 @@ p2 {
     }
     .nav ul {
         flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .card {
+        flex-direction: column;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    .headshot {
+        grid-template-columns: 350px;
     }
 }
 
