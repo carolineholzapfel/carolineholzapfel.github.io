@@ -52,9 +52,10 @@ nav li :hover{
 
 .header{
     background-color: #CBD3CE;
-    color: #fff;
+    color: black;
     text-align: center;
-    padding:1em;
+    padding:.5em;
+    font-size: x-large;
 
 }
 
@@ -77,3 +78,45 @@ p2 {
     margin: 8px 0;
 
 }
+
+.flatirons, .ski, .friends, .football {
+    width:500px;
+    height:auto;
+   
+}
+
+.row {
+    display: flex;
+    flex-wrap:nowrap;
+    padding: 0 4px;
+}
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .nav ul {
+        flex-direction: column;
+    }
+}
+
