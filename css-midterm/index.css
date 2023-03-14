@@ -8,7 +8,6 @@ p {
     text-align: center;
 }
 nav {
-    background-color: white;
     padding: .5em;
     position:-webkit-sticky;
     position:sticky;
@@ -32,7 +31,7 @@ nav a {
 }
 
 nav li :hover{
-    background-color: lightblue;
+    background-color: white;
 
 }
 
@@ -54,11 +53,10 @@ nav li :hover{
 }
 
 .header{
-    background-color: #CBD3CE;
     color: black;
     text-align: center;
     padding:.5em;
-    font-size: x-large;
+    font-size: xx-large;
 
 }
 
@@ -83,6 +81,9 @@ p2 {
     margin: 8px 0;
 
 }
+
+
+/*photos*/
 
 .flatirons, .ski, .friends, .football {
     width:500px;
