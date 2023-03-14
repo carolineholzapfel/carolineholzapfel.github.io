@@ -1,0 +1,141 @@
+body{
+    background-color: #DAF3E0;
+    font-family: Didot;
+}
+
+p {
+    font-size: large;
+    text-align: center;
+}
+nav {
+    padding: .5em;
+    position:-webkit-sticky;
+    position:sticky;
+    top:0;
+}
+  
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display:flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: space-around;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: .5em 1em;
+}
+
+nav li :hover{
+    background-color: white;
+
+}
+
+.headshot {
+    display:flex;
+    justify-content: left;
+    width:400px;
+    height:auto;
+    padding: 2em;
+}
+
+
+
+.footer{
+    background-color: #CBD3CE;
+    color: white;
+    position: absolute;
+    bottom:0;
+}
+
+.header{
+    color: black;
+    text-align: center;
+    padding:.5em;
+    font-size: xx-large;
+
+}
+
+.linkedin{
+    height: 40px;
+    width: auto;
+}
+
+
+.card {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 980px;
+    display:flex;
+    justify-content: right;
+    font-size: large;
+  }
+
+p2 {
+    box-sizing: content-box;
+    width:100%;
+    padding:12px 20px;
+    margin: 8px 0;
+
+}
+
+
+/*photos*/
+
+.flatirons, .ski, .friends, .football {
+    width:500px;
+    height:auto;
+   
+}
+
+.row {
+    display: flex;
+    flex-wrap:nowrap;
+    padding: 0 4px;
+}
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .nav ul {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .card {
+        flex-direction: column;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    .headshot {
+        grid-template-columns: 350px;
+    }
+}
+
