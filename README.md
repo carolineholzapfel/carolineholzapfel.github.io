@@ -3,7 +3,7 @@
 ## **Projects** 
 
 - [HTML](https://carolineholzapfel.github.io/html-midterm/page5.html)
-- CSS
+- [CSS](https://carolineholzapfel.github.io/index.html)
 - JS
 
 ## **In-Class Assignments**

@@ -5,7 +5,11 @@ body{
 
 p {
     font-size: large;
-    text-align: center;
+    text-decoration-style: underline;
+}
+
+h2{
+    border-bottom: 4px dotted;
 }
 nav {
     padding: .5em;
@@ -31,7 +35,7 @@ nav a {
 }
 
 nav li :hover{
-    background-color: white;
+   font-size: xx-large;
 
 }
 
