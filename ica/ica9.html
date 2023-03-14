@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICA9</title>
+    <style>
+        #button{
+            border:15px solid darkblue;
+            border-radius: 30px;
+            background-color: rgba(111, 207, 239, 0.843);
+            padding: 50px;
+            width: 250px;
+            font-size: 50px;
+            color: darkblue;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="button">
+        <p> Guess a number</p>
+    </div>
+    
+    <br>
+
+    <div class="form">
+        <label for="guessField"> Pick a number 1-10:</label>
+        <input type ="number" min="1" max="10" required id="guessField" class="guessField">
+        <input type="submit" value="Submit guess" class="guessSubmit">
+    </div>
+
+    <script>
+        console.log("Hello, World!");
+        let btn = document.querySelector("#button");
+        //console.log(btn);
+        
+
+        function changeBtn() {
+            //console.log("This worked!");
+            btn.textContent = "You got this";
+            btn.style.backgroundColor = "darkblue";
+            btn.style.border = "30px solid  rgba(111, 207, 239, 0.843)";
+            btn.style.color = "white";
+    
+        }
+
+        btn.addEventListener('click',changeBtn);
+       
+
+
+        function checkGuess() {
+            //alert('I am a place holder');
+            //alert(userGuess.value);
+
+            //let value = userGuess.value * 2;
+            //alert(value);
+
+            let value = userGuess.value;
+            alert("You got it!!!!");
+
+
+        }
+
+        let guessBtn = document.querySelector(".guessSubmit");
+        let userGuess = document.querySelector(".guessField");
+            // console.log(guessBtn);
+            guessBtn.addEventListener('click', checkGuess);
+
+
+
+
+    </script>
+</body>
+</html>
