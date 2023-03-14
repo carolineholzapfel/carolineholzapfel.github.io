@@ -17,7 +17,7 @@
 - [ICA6](https://carolineholzapfel.github.io/ica/ica6/ica6-part1.html)
 - [ICA7](https://carolineholzapfel.github.io/ica/ica7/ica7.html)
 - ICA8
-- ICA9
+- [ICA9](https://carolineholzapfel.github.io/ica9.html)
 - ICA10
 - ICA11
 - ICA12
