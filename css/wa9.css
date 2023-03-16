@@ -1,0 +1,34 @@
+body {
+    font-family: Rockwell;
+    width: 350px;
+    text-align:center;
+    background:rgb(130, 207, 255);
+  }
+
+  label {
+    font-weight: bold;  
+  }
+
+  div {
+    padding-bottom: 20px;
+    padding-top:10px;
+  }
+
+  input[type="text"] {
+    padding: 5px;
+    width: 150px;
+  }
+
+  p {
+    background: white;
+    color:black;
+    padding: 10px;
+    visibility: hidden;
+  }
+
+  .randomize {
+    font-family: Rockwell;
+    padding:10px;
+    background:black;
+    color:white;
+  }
