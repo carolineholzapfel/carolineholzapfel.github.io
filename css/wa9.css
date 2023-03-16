@@ -1,7 +1,7 @@
 body {
     font-family: Rockwell;
     width: 350px;
-    text-align:center;
+    text-align: center;
     background:rgb(130, 207, 255);
   }
 
@@ -22,7 +22,7 @@ body {
   p {
     background: white;
     color:black;
-    padding: 10px;
+    padding: 30px;
     visibility: hidden;
   }
 
