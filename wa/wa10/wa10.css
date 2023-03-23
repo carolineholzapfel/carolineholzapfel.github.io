@@ -1,11 +1,15 @@
 h1 {
-    font-family: helvetica, arial, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva;
     text-align: center;
+    background-color: aliceblue;
+    border-style: dotted;
+    border-color: black;
   }
   
   body {
     width: 640px;
     margin: 0 auto;
+    background-color: aliceblue;
   }
   
   .full-img {
