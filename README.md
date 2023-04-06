@@ -37,7 +37,7 @@
 - WA8
 - [WA9](https://carolineholzapfel.github.io/wa/wa9.html)
 - [WA10](https://carolineholzapfel.github.io/wa/wa10/wa10.html)
-- WA11
+- [WA11](https://carolineholzapfel.github.io/wa/wa11/wa11.html)
 - WA12
 - WA13
 - WA14
