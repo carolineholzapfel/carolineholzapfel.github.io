@@ -43,13 +43,13 @@ console.log("Problem 5: ")
 console.log(employees)
 
 //problem 6
-if (employees.firstName === "Anna" || employees.firstName === "Sam") {
-    employees.wfh = true
+for(let i = 0; i < 4; i++) {
+    if (employees[i].firstName === "Anna" || employees[i].firstName === "Sam") {
+    employees[i].wfh = true
+} else{
+    employees[i].wfh = false
 }
-
-else(
-    employees.wfh = false
-)
+}
 
 console.log("Problem 6: ")
 console.log(employees)
