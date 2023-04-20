@@ -1,5 +1,3 @@
-
-
 function check() {
     console.log('test');
 }
@@ -17,7 +15,7 @@ function minus() {
     if (outputInt > 0) {
     outputInt -=1;
     output.textContent = outputInt; }
-    
+
 }
 
 function plus() {
