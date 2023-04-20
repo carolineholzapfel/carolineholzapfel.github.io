@@ -1,0 +1,32 @@
+
+#slidecontainer{
+    background-color: pink;
+    width: 5px;
+    height:5px; 
+    border-radius: 50%;
+    position: absolute;
+    left:5vw;
+    top:0;
+    width:30vw;
+    height: 30vh;
+    position: absolute;
+    animation: moveX 15s linear 0s infinite alternate, moveY 5.3s linear 0s infinite alternate;
+}
+@keyframes moveX {
+    from { left: 0; } to { left: 1000px;}
+    }
+ 
+  @keyframes moveY {
+    from { top: 0; } to { top: 750px; }
+    }
+
+body{
+        background-color: pink;
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 25px;
+}
+
+.output {
+    font-size: 45px;
+}
