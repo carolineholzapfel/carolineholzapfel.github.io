@@ -47,13 +47,3 @@ const resetButton = document.querySelector('.reset-button').addEventListener('cl
 const randomButton = document.querySelector('.random-button').addEventListener('click', random);
 const submitButton = document.querySelector('.submit-button').addEventListener('click', submit)
 
-const button = document.querySelector('.button');
-const output = document.querySelector('.output');
-let phone_content = document.querySelector('.phone');
-
-button.addEventListener('click', updateOutput);
-
-function updateOutput() {
-    output.textContent = phone_content.value;
-    alert(phone_content.value);
-}
