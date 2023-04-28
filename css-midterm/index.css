@@ -1,10 +1,11 @@
 body{
     background-color: #DAF3E0;
-    font-family: Didot;
+    font-family: Big Caslon;
+    font-size: 15px;
 }
 
 p {
-    font-size: large;
+    font-size: 30px;
     text-decoration-style: underline;
     background-color: azure;
     padding: 10px;
@@ -43,7 +44,7 @@ nav li :hover{
 
 .headshot {
     display:flex;
-    justify-content: left;
+    justify-content:right;
     width:400px;
     height:auto;
     padding: 2em;
@@ -61,8 +62,9 @@ nav li :hover{
 .header{
     color: black;
     text-align: center;
-    padding:.5em;
-    font-size: xx-large;
+    padding:2em;
+    font-size: 50px;
+    animation: header 15s linear 1s infinite alternate;
 
 }
 
@@ -76,7 +78,7 @@ nav li :hover{
     margin: 0 auto;
     padding: 20px;
     max-width: 980px;
-    display:flex;
+    display:inline-flex;
     justify-content: right;
     font-size: large;
   }
@@ -145,3 +147,9 @@ p2 {
     }
 }
 
+@keyframes header {
+    from {margin-left: 0%;
+    }
+    to {margin-left: 100%;
+    }
+}
