@@ -54,26 +54,33 @@ function checkScore(){
     })
 }
     winningCombos.forEach( array => {
-        let crossWins = array.every(cell => allSquares[cell].firstChild?.classList.contains('cross'))
+        let crossWins = array.every(cell => 
+            allSquares[cell].firstChild?.classList.contains('cross'))
     
         if (crossWins){
             infoDisplay.textContent = "X Wins!"
             allSquares.forEach(square => square.replaceWith(square.cloneNode(true)))
             return
         }
+        else{
+            infoDisplay.textContent = "draw"
+        }
 
     })
 
 
-//reset button
-function resetboard() {
-    result.style.display = 'none';
-    turn.innerHTML = go;
-    const startCells = [
-        "", "", "", "", "", "", "", "", ""
-    ]
     
-    startGame();
-  }
+
+
+//reset button
+function reset() {
+    createBoard()
+}
+
+const resetButton = document.querySelector('.reset-button').addEventListener('click', reset)
+
+
+
+
 
 // winning tally marker 
