@@ -1,3 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
 body{
     background-color: #DAF3E0;
     font-family: Big Caslon;
@@ -9,6 +25,7 @@ p {
     text-decoration-style: underline;
     background-color: azure;
     padding: 10px;
+    text-align: center;
 }
 
 h2{
@@ -43,11 +60,10 @@ nav li :hover{
 }
 
 .headshot {
-    display:flex;
-    justify-content:right;
-    width:400px;
-    height:auto;
-    padding: 2em;
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+    margin-bottom: 20px;
 }
 
 

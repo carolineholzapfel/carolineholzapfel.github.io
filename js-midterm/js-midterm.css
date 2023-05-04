@@ -12,11 +12,13 @@ body {
     font-size: 40px;
 } 
 
-.reset-button {
+button {
     padding: 10px;
     background-color: white;
     font-family: 'Big Caslon';
     color: black;
+    font-size: 20px;
+    cursor:pointer;
 }
 
 #gameboard {
@@ -77,4 +79,9 @@ body {
     height: 30%;
     margin-top: -15%;
     width: 100%;
+}
+
+@keyframes winningCombo {
+    0% {background-color: aliceblue;}
+    100%{background-color: aqua;}
 }
