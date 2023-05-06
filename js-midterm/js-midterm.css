@@ -80,8 +80,3 @@ button {
     margin-top: -15%;
     width: 100%;
 }
-
-@keyframes winningCombo {
-    0% {background-color: aliceblue;}
-    100%{background-color: aqua;}
-}

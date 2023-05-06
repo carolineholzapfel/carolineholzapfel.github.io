@@ -4,7 +4,7 @@
 
 - [HTML](https://carolineholzapfel.github.io/html-midterm/page5.html)
 - [CSS](https://carolineholzapfel.github.io/index.html)
-- JS
+- [JS](http://carolineholzapfel.me/js-midterm/js-midterm.html)
 
 ## **In-Class Assignments**
 

@@ -85,4 +85,3 @@ function restartGame() {
   
   btnRestart.addEventListener('click', restartGame);
 
-// winning tally marker 
